@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+
+.img {
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img1 {
+  background-image: url("../images/identification.jpg");
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 12px 10px 12px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 350px;
+  margin-right: 30px;
+  max-width: 340px;
+  min-width: 340px;
+  padding: 16px;
+  background-color: white;
+}
+
+
+ input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.p1[type=password] {
+  width: 305px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+ input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.btn {
+  background-color: #428FC2;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 97%;
+  opacity: 0.9;
+  font-size : 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.container1 {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  bottom: 0px;
+  right: 10px;
+  background-color: #white;
+  color: #394549;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form {
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #D3D3D3;
+
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  font-size : 20px;
+  width: 230px;
+  text-align: left;
+  color: black;
+}
+
+input {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 305px;
+  height: 30px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+  
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: .5em;
+   width: 100px;
+   font-weight: bold;
+   background-color: #398484;
+   color:#d0f4f4;
+}
+select {
+	display: block;
+	margin: 0 auto;
+	width : 170px;
+	height : 30px;
+}
+.l1 {
+	font-size : 22px;
+	text-decoration : underline; 
+	color: #2F4F4F;
+}
+
+.retour {
+	float: right;
+        font-size: 15px;
+        color:#084B8A;
+}
+
+.text-block2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 10px;
+  right: 10px;
+  background-color: #white;
+  color: #2F4F4F;
+  padding-left: 20px;
+  padding-right: 20px;
+    font-size:16px;
+}
+
+.text-block3 {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 10px;
+  right: 95px;
+  background-color: #white;
+  color: #2F4F4F;
+  padding-left: 10px;
+  padding-right: 20px;
+font-size:16px;
+}
+
+.text-block4 {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 60px;
+  right: 10px;
+  background-color: #white;
+  color: #2F4F4F;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.a1{
+  font: 1em sans-serif;
+  width: 305px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-left: 235px;
+  margin-bottom: 0px;
+    margin-top: 0px;
+}
+.main1 {
+  margin-left: 5px;
+ margin-right: 5px; 
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.text-block6 {
+  right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #white;
+  color: #2F4F4F;
+  padding-right: 20px;
+
+}
+
+.text-block7 {
+  position: absolute;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  top: 60px;
+  right: 10px;
+  background-color: #white;
+  color: #2F4F4F;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
